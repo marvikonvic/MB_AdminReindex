@@ -1,0 +1,8 @@
+"Reindex","Reindeksiraj"
+"Reindex ALL","Reindeksiraj SVE"
+"Are you sure you want to reindex the selected indexer(s)?","Da li sigurno želite da reindeksirate izabrane indeksere?"
+"Are you sure you want to reindex all indexers? This can take a long time.","Da li sigurno želite da reindeksirate sve indeksere? Ovo može dugo da traje."
+"%1 indexer(s) were reindexed successfully.","Uspešno je reindeksirano indeksatora: %1."
+"The following indexer(s) are already running and were skipped: %1","Sledeći indeksatori su već pokrenuti i preskočeni su: %1"
+"The following indexer(s) could not be reindexed: %1. Check the logs for details.","Sledeći indeksatori nisu mogli biti reindeksirani: %1. Proverite logove za detalje."
+"Please select indexers.","Izaberite indeksere."

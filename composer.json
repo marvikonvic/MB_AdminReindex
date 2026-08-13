@@ -1,0 +1,22 @@
+{
+    "name": "mb/module-admin-reindex",
+    "description": "Adds selected and all-index reindex actions to Magento Admin Index Management.",
+    "type": "magento2-module",
+    "version": "1.0.2",
+    "license": "OSL-3.0",
+    "require": {
+        "php": "~8.1.0||~8.2.0||~8.3.0",
+        "magento/framework": "103.0.*",
+        "magento/module-backend": "102.0.*",
+        "magento/module-indexer": "100.4.*",
+        "magento/module-ui": "101.2.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MB\\AdminReindex\\": ""
+        }
+    }
+}

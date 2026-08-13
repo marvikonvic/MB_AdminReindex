@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="adminhtml.indexer.grid.grid.massaction">
+            <arguments>
+                <argument name="options" xsi:type="array">
+                    <item name="mb_reindex" xsi:type="array">
+                        <item name="label" xsi:type="string" translate="true">Reindex</item>
+                        <item name="url" xsi:type="string">mb_adminreindex/indexer/reindex</item>
+                        <item name="confirm" xsi:type="string" translate="true">Are you sure you want to reindex the selected indexer(s)?</item>
+                        <item name="visible" xsi:type="object">MB\AdminReindex\Model\MassAction\ReindexVisibility</item>
+                    </item>
+                    <item name="mb_reindex_all" xsi:type="array">
+                        <item name="label" xsi:type="string" translate="true">Reindex ALL</item>
+                        <item name="url" xsi:type="string">mb_adminreindex/indexer/reindexAll</item>
+                        <item name="confirm" xsi:type="string" translate="true">Are you sure you want to reindex all indexers? This can take a long time.</item>
+                        <item name="allow_no_selection" xsi:type="boolean">true</item>
+                        <item name="visible" xsi:type="object">MB\AdminReindex\Model\MassAction\ReindexVisibility</item>
+                    </item>
+                </argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
