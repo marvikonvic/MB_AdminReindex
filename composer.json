@@ -3,7 +3,7 @@
     "description": "Adds selected and all-index reindex actions to Magento Admin Index Management.",
     "type": "magento2-module",
     "version": "1.0.2",
-    "license": "OSL-3.0",
+    "license": "GPL-3.0-only",
     "require": {
         "php": "~8.1.0||~8.2.0||~8.3.0",
         "magento/framework": "103.0.*",

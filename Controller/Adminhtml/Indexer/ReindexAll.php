@@ -1,6 +1,6 @@
 <?php
 /**
- * @license OSL-3.0
+ * @license GPL-3.0-only
  */
 declare(strict_types=1);
 
