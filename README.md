@@ -1,5 +1,10 @@
 # MB_AdminReindex
 
+[![Version](https://img.shields.io/badge/version-1.0.2-0A66C2.svg)](https://github.com/marvikonvic/MB_AdminReindex)
+[![Magento](https://img.shields.io/badge/Magento-2.4.7--p3%20tested-EE672F.svg?logo=magento&logoColor=white)](https://github.com/marvikonvic/MB_AdminReindex)
+[![PHP](https://img.shields.io/badge/PHP-8.1--8.3-777BB4.svg?logo=php&logoColor=white)](https://www.php.net/)
+[![License](https://img.shields.io/badge/license-GPL--3.0--only-2EA44F.svg)](LICENSE)
+
 Magento 2 Admin module that adds **Reindex** and **Reindex ALL** actions below
 **Invalidate index** in **System → Tools → Index Management**.
 
